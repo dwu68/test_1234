@@ -13,13 +13,28 @@
         <h1>Git Workshop</h1>
      </header> 
      
-     <section>
-        <label for="year"><h4>1. Please enter your name: </h4></label>
-        <input type="text" id="Name"><br>
-        <button onclick="nameCheck()">Submit</button>
+    <!-- Page content -->
+    <div class="main">
+        <header>
+                <h1 class="rainbow-text">** Git Workshop **</h1>
+        </header>
+    
+        <section>
+            <label for="year"><h4>1. Please enter your name: </h4></label>
+            <input type="text" id="Name"><br>
+            <button onclick="nameCheck()">Submit</button>
+            <br>
+            <p id="welcome_msg" class="rainbow-text"></p>
+        </section>
         <br>
-        <p id="welcome_msg" class="rainbow-text"></p>
-    </section>
+        <section>
+            <label for="year"><h4>2. Please enter a Year: </h4></label>
+            <input type="text" id="year"><br>
+            <button onclick="checkLeapYear()">Check Leap Year</button>
+            <br>
+            <p id="result" class="rainbow-text"></p>
+        </section>   
+    </div>
 
 </body>
 </html>
