@@ -1,0 +1,23 @@
+html {
+    background: url(../assets/sky_bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .rainbow-text {
+    /* background-image: linear-gradient(to left, violet, #b0aac0, #87bdd8, #96ceb4, #ffcc5c, orange, #d96459); */
+    background-image: linear-gradient(to left,  #ffcc5c, orange, violet, #d96459);
+  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  header {
+  text-align: center;
+  }
+  
+  section {
+  text-align: center;
+  }
